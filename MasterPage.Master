@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Online_Job_Portal.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="w3.css" rel="stylesheet" type="text/css" />
+      <link href="style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+             <header class="w3-container w3-light-grey">
+     <center> <h1 class="w3-jumbo">JOB PORTAL!</h1></center>
+  <marquee><h2 style="color: blue;" Font-Size="large">Find The Most Exciting Startup Jobs</h2></marquee>
+
+    </header>
+
+            <nav id="nav">  
+    <ul>  
+        <li><a href="homepage.aspx">Home</a></li>  
+        <li><a href="#">Your Profile</a></li>  
+        <li><a href="#">Search Job</a></li>  
+        <li><a href="post_job.aspx">Post Job</a></li>
+        <li><a href="About.aspx">About us</a></li>
+        <li><a href="Contact.aspx">Contact</a></li>
+        
+    </ul>  
+</nav> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+<br />
+<br />
+
+            <footer >
+<br />
+<br />
+<br />
+
+  <p style=" text-align :center"></p>
+                <p style=" text-align :center"></p>
+                <p style=" text-align :center"></p>
+  <div >
+  
+  </div>
+
+
+    </div>
+   </form>
+
+</body>
+</html>
